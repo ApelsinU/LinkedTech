@@ -1,0 +1,73 @@
+/*
+    font-family: 'Hind Siliguri', sans-serif;
+*/
+
+@import "components/header.css";
+@import "components/button.css";
+@import "components/section.css";
+@import "components/contact.css";
+@import "components/footer.css";
+@import "components/productCard.css";
+@import "components/modals.css";
+
+@import "home/intro.css";
+@import "home/brands.css";
+@import "home/recent-products.css";
+@import "home/offer.css";
+
+@import "about/about.css";
+
+@import "product/product.css";
+
+@import "shop/shop.css";
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 1.5;
+
+    background-color: #fff;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

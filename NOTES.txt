@@ -1,0 +1,11 @@
+
+- shop
+
+- contacts
+
+
+- like button animation
+
+- shopping cart
+
+- log-in page (user page)

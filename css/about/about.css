@@ -1,0 +1,66 @@
+.about {
+    background: linear-gradient(to bottom, #fff 27%, #F4F9FC 27%, #F4F9FC 100%);
+
+  /*  margin-top: 111px;*/
+}
+
+.about__inner {
+    display: flex;
+
+    padding-bottom: 124px;
+    padding-top: 80px;
+
+    justify-content: space-between;
+}
+
+.about__photo {
+    width: 50%;
+}
+
+
+.about__content {
+    width:  40%;
+
+    margin: auto 0;
+}
+
+.about__list__item::marker {
+    display: block;
+    margin-top: 10px;
+
+    padding-left: 30px;
+}
+
+.about__list__item {
+    font-size: 14px;
+    font-weight: 500;
+
+    line-height: 1.93;
+
+    padding: 0 0 20px 30px;
+
+    background-image: url(../../images/about/li.png);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+}
+
+.about__list__item:last-child {
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+.modal {
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.modal__dialog {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+
+    background-color: #fff;
+
+    position: relative;
+}
+
+.modal__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    padding: 10px 20px;
+
+    background-color: #f0f0f0;
+
+    font-size: 30px;
+    color: #999;
+
+    transition: color .1s linear, background-color .1s linear;
+}
+
+.modal__close:hover {
+    color: #525252;
+    background-color: #e5e5e5;
+}
+
+.modal-product {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

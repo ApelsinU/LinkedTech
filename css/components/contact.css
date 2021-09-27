@@ -1,0 +1,62 @@
+.contact {
+    background-color: #F4F9FC;
+}
+
+.contact__inner {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 100px 0;
+}
+
+.contact__content {
+    width: 31.5%;
+}
+
+.contact__form {
+    display: flex;
+
+    width: 40%;
+}
+
+.contact__form__inner {
+    display: flex;
+
+    width: 100%;
+    margin: auto 0;
+}
+
+.contact__input {
+    outline: none;
+
+    flex-grow: 2;
+
+    padding: 13px 26px;
+    border: 1px solid #E5E5E5;
+}
+
+.contact__input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9EA1;
+}
+
+.contact__input:focus {
+    border-color: #247CC0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

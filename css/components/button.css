@@ -1,0 +1,65 @@
+.button {
+    padding: 16px 35px;
+    margin-right: 31px;
+
+    background-color: #247CC0;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    position: relative;
+    z-index: 1;
+
+    overflow: hidden;
+}
+
+.button--contact {
+    padding: 13px 26px;
+    margin-right: 0;
+
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    color: #3192dd;
+}
+
+.button:after {
+    content: "";
+
+    display: block;
+    width: 140%;
+    height: 100%;
+
+    background-color: #ecf0f1;
+
+    position: absolute;
+    top: 0;
+    left: -20%;
+    z-index: -1;
+
+    transform: skewX(45deg) scale(0,1);
+
+    transition: all .3s ease;
+}
+
+.button:hover:after {
+    transform: skewX(45deg) scale(1,1);
+    transition: all .3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

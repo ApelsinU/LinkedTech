@@ -1,0 +1,74 @@
+.section__header {
+
+}
+
+.section__subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #DD7C86;
+
+    letter-spacing: 14.5%;
+    line-height: 1.6;
+
+    text-transform: uppercase;
+
+    margin-bottom: 18px;
+}
+
+.section__subtitle--about, .section__subtitle--product {
+    margin-bottom: 0;
+}
+
+.section__title {
+    font-size: 44px;
+    font-weight: 600;
+    color: #030D15;
+
+    line-height: 1.6;
+}
+
+.section__title--about {
+    margin-bottom: 115px;
+}
+
+.section__title--contact {
+    font-size: 25px;
+}
+
+.section__title--product {
+    margin-bottom: 22px;
+}
+
+.section__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #686E73;
+
+    line-height: 1.5;
+}
+
+.section__text--contact {
+    font-size: 14px;
+}
+
+.section__text--about {
+    margin-bottom: 30px;
+}
+
+.section__text--shop {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

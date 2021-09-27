@@ -1,0 +1,187 @@
+.product__card {
+    margin-bottom: 15px;
+}
+
+.product-card__title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #030D15;
+
+    line-height: 1.6;
+
+    margin-bottom: 9px;
+}
+
+.product-card__text {
+    margin-bottom: 20px;
+
+    color: #686E73;
+}
+
+.product-card__price {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.product-card__price--hover-content {
+    margin-bottom: 3px;
+}
+
+.product-card__price__text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #030D15;
+}
+
+.product-card__price__devider {
+    font-weight: 300;
+    margin: auto 3px;
+    color: #81868A;
+}
+
+.product-card__price__text--crossed {
+    font-size: 14px;
+    font-weight: 300;
+    color: #81868A;
+
+    text-decoration: line-through;
+
+    margin: auto 0;
+}
+
+.product-card__stars {
+    font-size: 11px;
+    color: #C72535;
+
+    display: block;
+}
+
+.product-card__stars--large {
+    font-size: 15px;
+}
+
+.hover-content {
+    background-color: #FAFAFA;
+
+    padding: 0 35px;
+
+    transition: transform .3s ease;
+    transform: translateY(160px);
+}
+
+.hover-content--shop {
+    display: none;
+    transform: none;
+
+    background-color: transparent;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    width: 100%;
+    height: 100%;
+}
+
+.hover-content__inner {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    height: 160px;
+    padding: 28px 0 28px;
+}
+
+.hover-content__inner--shop {
+    height: 100%;
+}
+
+.hover-content__row {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.hover-content__col {
+    display: flex;
+    flex-direction: column;
+}
+
+.hover-content__btn {
+    cursor: pointer;
+
+    font-size: 20px;
+    color: #030D15;
+
+    background: none;
+    border: none;
+}
+
+.hover-content__palette {
+    display: flex;
+
+    margin: auto 0;
+}
+
+.palette__border {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-color: none;
+
+    display: flex;
+
+    cursor: pointer;
+}
+
+.palette__border.active {
+    border: 1px solid #030D15;
+    background-color: #F4F9FC;
+}
+
+.palette__border:last-child {
+    margin-right: 0;
+}
+
+.palette__color {
+    width: 14px;
+    height: 14px;
+    margin: auto;
+
+    border-radius: 50%;
+}
+
+.palette__color--first {
+    background-color: #C3D7E5;
+}
+
+.palette__color--second {
+    background-color: #15151D;
+}
+
+.palette__color--third {
+    background-color: #2F80ED;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

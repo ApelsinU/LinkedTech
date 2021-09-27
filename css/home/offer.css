@@ -1,0 +1,104 @@
+.offer__inner {
+    padding: 30px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer__card {
+    display: flex;
+
+    width: 555px;
+    height: 296px;
+
+    padding-left: 35px;
+
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid #7A55C2;
+
+    position: relative;
+}
+
+.offer__content {
+    width: 55%;
+
+    margin: auto 0;
+}
+
+.offer__text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #BCBFF0;
+
+    text-transform: uppercase;
+    line-height: 1.7;
+
+    margin-bottom: 5px;
+}
+
+.offer__title {
+    font-size: 31px;
+    font-weight: 600;
+    color: #F4F9FC;
+
+    line-height: 1.3;
+
+    margin-bottom: 7px;
+}
+
+.offer__link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #F4F9FC;
+
+    text-transform: uppercase;
+}
+
+.offer__link:hover {
+    text-decoration: underline;
+}
+
+.offer__photo-dron {
+    position: absolute;
+
+    right: -35px;
+    top: -20px;
+    z-index: 1;
+}
+
+.offer__photo-camera {
+    position: absolute;
+
+    right: 20px;
+    top: 40px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
